@@ -2,18 +2,27 @@ public class Main {
 
     public static void main(String[] args) {
 
-        TriangleExercises triangleExercises = new TriangleExercises();
+        ShapeExercises shapeExercises = new ShapeExercises();
 
         System.out.println("Print one star: ");
-        triangleExercises.printStars(1);
+        shapeExercises.printStars(1);
 
         System.out.println("Print horizontal line: ");
-        triangleExercises.printStars(8);
+        shapeExercises.printStars(8);
 
         System.out.println("Print vertical line: ");
-        triangleExercises.printVerticalLine(3);
+        shapeExercises.printVerticalLine(3);
 
         System.out.println("Print a right triangle: ");
-        triangleExercises.printRightTriangle(3);
+        shapeExercises.printRightTriangle(3);
+
+        System.out.println("Print an isosceles triangle: ");
+        shapeExercises.printIsosTriangle(3);
+
+        System.out.println("Print a diamond: ");
+        shapeExercises.printDiamond(3);
+
+        System.out.println("Print a diamond with a name: ");
+        shapeExercises.printDiamondName(3);
     }
 }
