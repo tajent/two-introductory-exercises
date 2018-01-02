@@ -3,6 +3,8 @@ public class Main {
     public static void main(String[] args) {
 
         ShapeExercises shapeExercises = new ShapeExercises();
+        FizzBuzz fizzBuzzExercise = new FizzBuzz();
+        PrimeFactors primeFactorsExercise = new PrimeFactors();
 
         System.out.println("Print one star: ");
         shapeExercises.printStars(1);
@@ -24,5 +26,11 @@ public class Main {
 
         System.out.println("Print a diamond with a name: ");
         shapeExercises.printDiamondName(3);
+
+        System.out.println("Print FizzBuzz for numbers 1-100: ");
+        fizzBuzzExercise.fizzBuzz();
+
+        System.out.println("Print prime factors of 30");
+        primeFactorsExercise.generate(30);
     }
 }
